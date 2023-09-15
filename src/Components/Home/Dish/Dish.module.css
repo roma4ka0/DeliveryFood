@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Raleway:wght@500&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.DishContain {
+  display: flex;
+  flex-direction: column;
+  width: 490px;
+  margin: 10px;
+}
+
+.DishContain > img {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.DishNameSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DishDescription {
+  padding: 0 24px 0 24px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 0 0 10px 10px;
+  height: 110px;
+  padding: 20px;
+}
+
+.DishRatingAndPrice {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  color: gray;
+}
+
+.DishRatingAndPrice > img {
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+}
+
+.DishTime {
+  color: white;
+  background-color: black;
+  padding: 2px 8px 2px 8px;
+}
+
+.Rating {
+  padding-right: 26px;
+  color: #ffc107;
+  font-weight: 600;
+}
+
+.Price {
+  padding-right: 30px;
+}

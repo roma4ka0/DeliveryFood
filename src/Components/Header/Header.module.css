@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Raleway:wght@500&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+input {
+  all: unset;
+}
+
+button {
+  all: unset;
+}
+
+.HeaderContain {
+  display: flex;
+  height: 105px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 83%;
+  margin: 0 auto;
+}
+
+.Logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Logo > img {
+  max-width: 32px;
+  max-height: 32px;
+  margin-right: 10px;
+}
+
+.Logo > p {
+  font-size: 16px;
+  color: black;
+  font-weight: 400;
+}
+
+.Logo > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.HeaderSearch {
+  width: 690px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+.HeaderSearch > input {
+  width: 646px;
+  height: 24px;
+}
+
+.HeaderSearch > img {
+  width: 18px;
+  height: 18px;
+  margin: 4px;
+}
+
+.HeaderButtons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.HeaderButtons > button {
+  padding: 12px 20px 12px 20px;
+  cursor: pointer;
+}
+
+.Login {
+  background-color: #1890ff;
+  color: white;
+  display: flex;
+}
+
+.Login:hover {
+  background-color: #1b78cf;
+}
+
+.Login > img {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.Cart:hover {
+  background-color: rgb(202, 200, 200);
+}
+
+.Cart {
+  border: 1px solid gray;
+  display: flex;
+}
+
+.Cart > img {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
