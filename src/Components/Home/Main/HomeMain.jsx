@@ -10,22 +10,22 @@ const HomeMain = () => {
       <div className={styles.CenterContainer}>
         <section className={styles.BackgroundBanner}>
           <div className={styles.HeaderTextContain}>
-            <h1>Онлайн-сервис</h1>
-            <h1>доставки еды на дом</h1>
+            <h1>Онлайн-сервіс</h1>
+            <h1>доставки їжі додому</h1>
             <section className={styles.BannerDescription}>
-              <p>Блюда из любимого ресторана привезет</p>
-              <p>курьер в перчатках, маске и с антисептиком</p>
+              <p>Страви з улюбленого ресторану привезе</p>
+              <p>кур'єр у рукавичках, масці та з антисептиком</p>
             </section>
           </div>
-          <img src={PizzaBanner} />
+          <img src={PizzaBanner} about="Banner" />
         </section>
       </div>
 
       <section className={styles.RestaurantContain}>
         <section className={styles.RestaurantHeader}>
-          <h1>Рестораны</h1>
+          <h1>Ресторани</h1>
           <section className={styles.RestaurantSearch}>
-            <img src={Search} />
+            <img src={Search} alt="Search" />
             <input placeholder="Поиск блюд и ресторанов" />
           </section>
         </section>

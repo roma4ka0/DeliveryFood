@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Raleway:wght@500&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 83%;
+  margin: 0 auto;
+}
+
+.Price {
+  padding: 0 10px 0 10px;
+}
+
+.HeaderRestoraunt {
+  display: flex;
+  align-items: center;
+}
+
+.HeaderRestoraunt > h1 {
+  font-weight: 1200;
+  font-size: 36px;
+  padding-right: 10px;
+}
+
+.HeaderRestoraunt > img {
+  width: 14px;
+  height: 14px;
+  margin: 5px;
+}
+
+.Rating {
+  color: #ffc107;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Login:hover {
+  background-color: #1b78cf;
+}

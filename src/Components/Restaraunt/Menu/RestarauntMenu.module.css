@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.MenuContainer > section {
+  height: 180px;
+  width: 384px;
+  background-color: white;
+  padding: 25px 24px 0 24px;
+  border-radius: 0 0 10px 10px;
+}
+
+.MenuContainer > img {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.Description {
+  padding-top: 5px;
+  padding-bottom: 25px;
+  color: gray;
+}
+
+.Cart {
+  background-color: #1890ff;
+  color: white;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 2.5px;
+  cursor: pointer;
+}
+
+.Price {
+  margin-left: 32px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Cart > img {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+}
+
+.MenuContainer > section > section {
+  display: flex;
+  align-items: center;
+}
+
+.Cart:hover {
+  background-color: #1b78cf;
+}

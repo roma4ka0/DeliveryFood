@@ -10,23 +10,23 @@ const Header = () => {
   return (
     <section className={styles.HeaderContain}>
       <NavLink className={styles.Logo} to="/">
-        <img src={Logo} />
-        <a>
+        <img src={Logo} alt="Логотип" />
+        <span>
           <p>Delivery</p>
           <p>Food</p>
-        </a>
+        </span>
       </NavLink>
       <section className={styles.HeaderSearch}>
-        <img src={Home} />
-        <input placeholder="Адрес доставки" />
+        <img src={Home} alt="Домашня сторінка" />
+        <input placeholder="Адреса доставки" />
       </section>
       <section className={styles.HeaderButtons}>
         <button className={styles.Login}>
-          <img src={User} />
+          <img src={User} alt="Користувач" />
           Увійти
         </button>
         <button className={styles.Cart}>
-          <img src={Cart} />
+          <img src={Cart} alt="Кошик" />
           Кошик
         </button>
       </section>

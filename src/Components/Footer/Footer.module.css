@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Raleway:wght@500&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+li {
+  all: unset;
+}
+
+a {
+  cursor: pointer;
+}
+
+.FooterContainer {
+  margin-top: 90px;
+  height: 160px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FooterCenterContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 83%;
+  margin: 0 auto;
+}
+
+.Logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Logo > img {
+  max-width: 32px;
+  max-height: 32px;
+  margin-right: 10px;
+}
+
+.Logo > p {
+  font-size: 16px;
+  color: black;
+  font-weight: 400;
+}
+
+.Logo > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.LinksFooter > li {
+  padding: 0 5px 0 5px;
+}
+
+.SocialLinksFooter > li {
+  padding: 0 5px 0 5px;
+}
+
+.SocialLinksFooter > li:last-child > a > img {
+  height: 25px;
+  width: 35px;
+}
+
+@media (max-width: 750px) {
+  .FooterCenterContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .SocialLinksFooter {
+    padding-top: 15px;
+  }
+  .LinksFooter {
+    text-align: center;
+    padding-top: 15px;
+  }
+}
