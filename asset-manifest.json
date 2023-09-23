@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/DeliveryFood/static/css/main.05579e29.css",
+    "main.js": "/DeliveryFood/static/js/main.ec0fcfef.js",
+    "static/media/image6.png": "/DeliveryFood/static/media/image6.b2fcf70f21104eb9c4a0.png",
+    "static/media/image3.png": "/DeliveryFood/static/media/image3.8a13c2c42898ff816aa9.png",
+    "static/media/image4.png": "/DeliveryFood/static/media/image4.feb32b1524ea63a26bb9.png",
+    "static/media/image2.png": "/DeliveryFood/static/media/image2.fecf47485502972c4f98.png",
+    "static/media/image5.png": "/DeliveryFood/static/media/image5.e84dc02a7c6061268ed4.png",
+    "static/media/image1.png": "/DeliveryFood/static/media/image1.7f91d56bb51f6fd0a3c4.png",
+    "static/media/PizzaBaner.png": "/DeliveryFood/static/media/PizzaBaner.8fa8879fc9d68618860c.png",
+    "index.html": "/DeliveryFood/index.html",
+    "main.05579e29.css.map": "/DeliveryFood/static/css/main.05579e29.css.map",
+    "main.ec0fcfef.js.map": "/DeliveryFood/static/js/main.ec0fcfef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05579e29.css",
+    "static/js/main.ec0fcfef.js"
+  ]
+}
