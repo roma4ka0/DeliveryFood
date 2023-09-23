@@ -66,6 +66,7 @@ const MenuList = () => {
       {MenuData.map((item) => (
         <Menu
           key={item.id}
+          id={item.id}
           img={item.image}
           Name={item.name}
           Description={item.Description}

@@ -1,0 +1,40 @@
+.itemContainer {
+  display: flex;
+
+  padding-bottom: 10px;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.itemContainer > section {
+  display: flex;
+  align-items: center;
+}
+
+.Price {
+  font-weight: 1000;
+  position: fixed;
+  left: 380px;
+}
+
+.Count {
+  padding: 0 7px 0 7px;
+  font-weight: 600;
+}
+
+.itemContainer > section > button {
+  color: #40a9ff;
+  padding: 5px 16px 5px 16px;
+  border: 1px solid #40a9ff;
+  border-radius: 2.5px;
+  cursor: pointer;
+}
+
+@media (max-width: 770px) {
+  .Price {
+    position: static;
+    left: auto;
+    padding: 0 10px 0 10px;
+  }
+}

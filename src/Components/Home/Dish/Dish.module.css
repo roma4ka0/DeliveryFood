@@ -17,6 +17,7 @@
   cursor: pointer;
   transition: box-shadow 0.3s ease;
   border-radius: 10px;
+  animation: contain-appear 0.5s ease-in-out;
 }
 .DishContain:hover {
   box-shadow: 0 0 5px 2px gray;
@@ -74,5 +75,17 @@
 @media (max-width: 415px) {
   .DishContain {
     min-width: 290px;
+  }
+}
+
+@keyframes contain-appear {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

@@ -11,7 +11,7 @@ const Footer = () => {
     <section className={styles.FooterContainer}>
       <section className={styles.FooterCenterContainer}>
         <section className={styles.LogoContainer}>
-          <NavLink className={styles.Logo} to="/">
+          <NavLink className={styles.Logo} to="/DeliveryFood">
             <img src={Logo} />
             <span>
               <p>Delivery</p>

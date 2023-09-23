@@ -1,0 +1,70 @@
+.CartMainContainer {
+  padding: 40px 45px 40px 45px;
+}
+
+.ModalHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 45px;
+}
+
+.ModalHeader > h1 {
+  font-size: 36px;
+}
+
+.ModalHeader > button {
+  cursor: pointer;
+}
+
+.buttonsModal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Amount {
+  background-color: #262626;
+  color: white;
+  padding: 12px 20px 12px 20px;
+  border-radius: 2.5px;
+  font-weight: 600;
+}
+
+.ConfirmOrder {
+  background-color: #1890ff;
+  color: white;
+}
+
+.buttonsModal > section > button {
+  padding: 8px 16px 8px 16px;
+  border-radius: 2.5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.CancelOrder {
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.CartEmpty {
+  font-size: 24px;
+}
+
+@media (max-width: 650px) {
+  .buttonsModal {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .buttonsModal > section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 300px) {
+  .CartMainContainer {
+    padding: 0;
+  }
+}

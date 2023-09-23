@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.MenuContainer {
+  animation: contain-appear 0.5s ease-in-out;
+}
 
 .MenuContainer > section {
   height: 180px;
@@ -53,4 +56,15 @@
 
 .Cart:hover {
   background-color: #1b78cf;
+}
+@keyframes contain-appear {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

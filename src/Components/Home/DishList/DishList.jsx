@@ -15,37 +15,37 @@ const dishData = [
     id: 1,
     name: "Піца плюс",
     image: image1,
-    to: "/restaurant",
+    to: "/DeliveryFood/restaurant",
   },
   {
     id: 2,
     name: "Тануки",
     image: image2,
-    to: "/restaurant",
+    to: "/DeliveryFood/restaurant",
   },
   {
     id: 3,
     name: "FoodBand",
     image: image3,
-    to: "/restaurant",
+    to: "/DeliveryFood/restaurant",
   },
   {
     id: 4,
     name: "Жадина-піца",
     image: image4,
-    to: "/restaurant",
+    to: "/DeliveryFood/restaurant",
   },
   {
     id: 5,
     name: "Крапка їжі",
     image: image5,
-    to: "/restaurant",
+    to: "/DeliveryFood/restaurant",
   },
   {
     id: 6,
     name: "PizzaBurger",
     image: image6,
-    to: "/restaurant",
+    to: "/DeliveryFood/restaurant",
   },
 ];
 

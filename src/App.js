@@ -4,16 +4,18 @@ import "./index.css";
 
 import Home from "./Pages/Home.jsx";
 import Restaurant from "./Pages/Restaraunt";
-// import Cart from "./Cart";
+import Cart from "./Components/Cart/Cart";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/restaurant" element={<Restaurant />} />
-      </Routes>
-    </Router>
+    <section>
+      <Router>
+        <Routes>
+          <Route path="/DeliveryFood" element={<Home />} />
+          <Route path="/DeliveryFood/restaurant" element={<Restaurant />} />
+        </Routes>
+      </Router>
+    </section>
   );
 }
 
