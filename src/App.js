@@ -4,7 +4,6 @@ import "./index.css";
 
 import Home from "./Pages/Home.jsx";
 import Restaurant from "./Pages/Restaraunt";
-import Cart from "./Components/Cart/Cart";
 
 function App() {
   return (

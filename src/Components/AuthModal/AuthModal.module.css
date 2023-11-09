@@ -1,0 +1,42 @@
+.AuthContain {
+  padding: 20px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.AuthInput {
+  padding: 8px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid gray;
+  max-width: 300px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.LogIn {
+  background-color: #1890ff;
+  color: white;
+  padding: 12px 40px 12px 40px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.LogIn:hover {
+  background-color: #1b78cf;
+}
+
+.ErrorBorder {
+  border: 1px solid rgb(146, 21, 21);
+}
+
+.ErrorText {
+  color: rgb(146, 21, 21);
+  padding: 5px;
+}
