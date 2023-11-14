@@ -27,7 +27,7 @@ const Footer = () => {
             <Link>Кур'єрам</Link>
           </li>
           <li>
-            <Link>Прес-центр</Link>
+            <Link>Пресс-центр</Link>
           </li>
           <li>
             <Link>Контакти</Link>
@@ -36,7 +36,7 @@ const Footer = () => {
         <ul className={styles.SocialLinksFooter}>
           <li>
             <Link>
-              <img src={Instagram} alt="Инстаграм" />
+              <img src={Instagram} alt="Інстаграм" />
             </Link>
           </li>
           <li>

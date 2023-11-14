@@ -28,7 +28,7 @@ const CartItem = (props) => {
     <section>
       <section className={styles.itemContainer}>
         <p className={styles.Name}>{name}</p>
-        <p className={styles.Price}>{price} ₽</p>
+        <p className={styles.Price}>{price} $</p>
         <section>
           <button className={styles.AddItem} onClick={AddItemHandler}>
             +

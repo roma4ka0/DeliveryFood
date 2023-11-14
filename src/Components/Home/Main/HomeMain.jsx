@@ -11,10 +11,10 @@ const HomeMain = () => {
         <section className={styles.BackgroundBanner}>
           <div className={styles.HeaderTextContain}>
             <h1>Онлайн-сервіс</h1>
-            <h1>доставки їжі додому</h1>
+            <h1>доставки їжі на дім</h1>
             <section className={styles.BannerDescription}>
-              <p>Страви з улюбленого ресторану привезе</p>
-              <p>кур'єр у рукавичках, масці та з антисептиком</p>
+              <p>Страви з юлюбленого ресторана привезе</p>
+              <p>кур'єр у рукавичках, масці і з антисептиком</p>
             </section>
           </div>
           <img src={PizzaBanner} about="Banner" />
@@ -26,7 +26,7 @@ const HomeMain = () => {
           <h1>Ресторани</h1>
           <section className={styles.RestaurantSearch}>
             <img src={Search} alt="Search" />
-            <input placeholder="Поиск блюд и ресторанов" />
+            <input placeholder="Пошук страв і ресторанів" />
           </section>
         </section>
 

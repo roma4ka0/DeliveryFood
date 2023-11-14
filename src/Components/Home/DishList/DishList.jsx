@@ -13,39 +13,39 @@ import styles from "./DishList.module.css";
 const dishData = [
   {
     id: 1,
-    name: "Піца плюс",
+    name: "Піцці плюс",
     image: image1,
-    to: "/DeliveryFood/restaurant",
+    to: "/restaurant",
   },
   {
     id: 2,
-    name: "Тануки",
+    name: "Танукі",
     image: image2,
-    to: "/DeliveryFood/restaurant",
+    to: "/restaurant",
   },
   {
     id: 3,
     name: "FoodBand",
     image: image3,
-    to: "/DeliveryFood/restaurant",
+    to: "/restaurant",
   },
   {
     id: 4,
-    name: "Жадина-піца",
+    name: "Жадина-піцца",
     image: image4,
-    to: "/DeliveryFood/restaurant",
+    to: "/restaurant",
   },
   {
     id: 5,
-    name: "Крапка їжі",
+    name: "Точка їжі",
     image: image5,
-    to: "/DeliveryFood/restaurant",
+    to: "/restaurant",
   },
   {
     id: 6,
     name: "PizzaBurger",
     image: image6,
-    to: "/DeliveryFood/restaurant",
+    to: "/restaurant",
   },
 ];
 

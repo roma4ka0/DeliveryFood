@@ -6,12 +6,12 @@ const RestarauntMain = () => {
   return (
     <section className={styles.MainContainer}>
       <section className={styles.HeaderRestoraunt}>
-        <h1>Тануки</h1>
+        <h1>Танукі</h1>
         <img src={Rating} />
-        <p className={styles.Rating}>4.5</p>
-        <p className={styles.Price}>От 900 ₽</p>
+        <p className={styles.Rating}>4.99</p>
+        <p className={styles.Price}>Від 5 $</p>
         <ul>
-          <li>Піца та суші</li>
+          <li>Піцці і суші</li>
         </ul>
       </section>
       <MenuList />

@@ -34,7 +34,7 @@ const Cart = (props) => {
         <Modal onHideCart={closeModal} isOpen={isModalOpen}>
           <section className={styles.CartMainContainer}>
             <section className={styles.ModalHeader}>
-              <h1>Корзина</h1>
+              <h1>Кошик</h1>
               <button onClick={closeModal}>
                 <img src={Close} />
               </button>
@@ -55,21 +55,21 @@ const Cart = (props) => {
             </ul>
             {cartItems.length > 0 ? (
               <section className={styles.buttonsModal}>
-                <p className={styles.Amount}>{amount} ₽</p>
+                <p className={styles.Amount}>{amount} $</p>
                 <section>
                   <button className={styles.ConfirmOrder}>
-                    Оформить заказ
+                    Оформити замовлення
                   </button>
                   <button
                     className={styles.CancelOrder}
                     onClick={closeModalAndClear}
                   >
-                    Отмена
+                    Відміна
                   </button>
                 </section>
               </section>
             ) : (
-              <p className={styles.CartEmpty}>Корзина пуста</p>
+              <p className={styles.CartEmpty}>Кошик порожній</p>
             )}
           </section>
         </Modal>

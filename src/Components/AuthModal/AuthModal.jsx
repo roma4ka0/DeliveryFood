@@ -24,7 +24,6 @@ const AuthModal = (props) => {
       setValid(true);
       handleLogin();
       closeModal();
-      props.IsAuth(true);
     } else {
       setValid(false);
     }
@@ -41,21 +40,21 @@ const AuthModal = (props) => {
   return (
     <Modal onHideCart={closeModal} isOpen={isModalOpen}>
       <section className={styles.AuthContain}>
-        <h1>Авторизация</h1>
+        <h1>Авторизація</h1>
         <input
           className={`${IsValid !== true ? styles.ErrorBorder : ""} ${
             styles.AuthInput
           }`}
           type="text"
           ref={UserName}
-          placeholder="Введите имя пользователя"
+          placeholder="Введіть ім'я користувача"
           onFocus={LogInFocusHandler}
         />
         {!IsValid && (
-          <p className={styles.ErrorText}>Имя пользователя некорректно</p>
+          <p className={styles.ErrorText}>Невірне ім'я користувача</p>
         )}
         <button className={styles.LogIn} onClick={LogInHandler}>
-          Войти
+          Увійти
         </button>
       </section>
     </Modal>
