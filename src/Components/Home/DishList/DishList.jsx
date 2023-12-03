@@ -1,5 +1,7 @@
 import React from "react";
+import dishData from "../../../Data/dishData.json";
 import Dish from "../Dish/Dish";
+
 
 import image1 from "../../../Images/Restaurant/image1.png";
 import image2 from "../../../Images/Restaurant/image2.png";
@@ -10,53 +12,20 @@ import image6 from "../../../Images/Restaurant/image6.png";
 
 import styles from "./DishList.module.css";
 
-const dishData = [
-  {
-    id: 1,
-    name: "Піцці плюс",
-    image: image1,
-    to: "/restaurant",
-  },
-  {
-    id: 2,
-    name: "Танукі",
-    image: image2,
-    to: "/restaurant",
-  },
-  {
-    id: 3,
-    name: "FoodBand",
-    image: image3,
-    to: "/restaurant",
-  },
-  {
-    id: 4,
-    name: "Жадина-піцца",
-    image: image4,
-    to: "/restaurant",
-  },
-  {
-    id: 5,
-    name: "Точка їжі",
-    image: image5,
-    to: "/restaurant",
-  },
-  {
-    id: 6,
-    name: "PizzaBurger",
-    image: image6,
-    to: "/restaurant",
-  },
-];
+const images = [image1, image2, image3, image4, image5, image6];
 
-const DishList = () => {
+const DishList = ({ searchTerm }) => {
+  const filteredDishes = dishData.filter((dish) =>
+    dish.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <section className={styles.Contain}>
-      {dishData.map((dish) => (
+      {filteredDishes.map((dish) => (
         <Dish
           key={dish.id}
           DishName={dish.name}
-          image={dish.image}
+          image={images[dish.id - 1]}
           to={dish.to}
         />
       ))}
