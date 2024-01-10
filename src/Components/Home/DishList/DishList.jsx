@@ -1,7 +1,6 @@
 import React from "react";
-import dishData from "../../../Data/dishData.json";
 import Dish from "../Dish/Dish";
-
+import dishData from "../../../Data/dishData.json";
 
 import image1 from "../../../Images/Restaurant/image1.png";
 import image2 from "../../../Images/Restaurant/image2.png";

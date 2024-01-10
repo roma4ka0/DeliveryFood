@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route path="/DeliveryFood" element={<Home />} />
         <Route
-          path="/restaurant"
+          path="/restaurant/:restaurantId"
           element={
             isLogin ? (
               <Restaurant />

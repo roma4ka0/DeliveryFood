@@ -10,8 +10,8 @@ const RestarauntMenu = (props) => {
   const AddItemHandler = () => {
     const newItem = {
       id: props.id,
-      name: props.Name,
-      price: props.Price,
+      name: props.name,
+      price: props.price,
     };
 
     dispatch(addItem(newItem));
@@ -21,14 +21,14 @@ const RestarauntMenu = (props) => {
     <section className={styles.MenuContainer}>
       <img src={props.img} alt="Menu Item" />
       <section>
-        <h3>{props.Name}</h3>
-        <p className={styles.Description}>{props.Description}</p>
+        <h3>{props.name}</h3>
+        <p className={styles.Description}>{props.description}</p>
         <section className={styles.ButtonAndPrice}>
           <button className={styles.Cart} onClick={AddItemHandler}>
             До кошика
             <img src={Cart} alt="Add to Cart" />
           </button>
-          <p className={styles.Price}>{props.Price} $</p>
+          <p className={styles.Price}>{props.price} $</p>
         </section>
       </section>
     </section>

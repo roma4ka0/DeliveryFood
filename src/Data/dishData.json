@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Піца плюс",
+    "image": "image1",
+    "to": "/restaurant/1"
+  },
+  {
+    "id": 2,
+    "name": "Тануки",
+    "image": "image2",
+    "to": "/restaurant/2"
+  },
+  {
+    "id": 3,
+    "name": "FoodBand",
+    "image": "image3",
+    "to": "/restaurant/3"
+  },
+  {
+    "id": 4,
+    "name": "Жадина-піца",
+    "image": "image4",
+    "to": "/restaurant/4"
+  },
+  {
+    "id": 5,
+    "name": "Точка їжі",
+    "image": "image5",
+    "to": "/restaurant/5"
+  },
+  {
+    "id": 6,
+    "name": "PizzaBurger",
+    "image": "image6",
+    "to": "/restaurant/6"
+  }
+]

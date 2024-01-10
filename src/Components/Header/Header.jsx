@@ -63,7 +63,7 @@ const Header = () => {
         <input placeholder="Адреса доставки" />
       </section>
 
-      {isLogin && <p className={styles.UserName}>{UserName}</p>}
+      {isLogin && <p className={styles.UserName}>{`Вітаємо, ${UserName}`}</p>}
       <section className={styles.HeaderButtons}>
         {!isLogin && (
           <button className={styles.Login} onClick={openAuthModal}>
@@ -84,7 +84,7 @@ const Header = () => {
         )}
 
         <button className={styles.Cart} onClick={openCart}>
-          <img src={CartImage} alt="Кошик" />
+          <img src={CartImage} alt="Корзина" />
           Кошик
         </button>
 
