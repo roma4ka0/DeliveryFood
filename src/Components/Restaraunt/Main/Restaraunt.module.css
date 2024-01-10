@@ -48,3 +48,8 @@
 .Login:hover {
   background-color: #1b78cf;
 }
+
+.Loading {
+  text-align: center;
+  font-size: 32px;
+}
